@@ -1,0 +1,51 @@
+# Django и Django REST framework
+Django==4.2.8
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+django-filter==23.4
+django-environ==0.11.2
+djangorestframework-simplejwt==5.3.0
+django-storages==1.14.2
+drf-yasg==1.21.7
+
+# Базы данных
+psycopg2-binary==2.9.9
+redis==5.0.1
+django-redis==5.4.0
+
+# Celery
+celery==5.3.4
+django-celery-beat==2.5.0
+django-celery-results==2.5.1
+
+# Безопасность
+PyJWT==2.8.0
+django-defender==0.9.7
+django-axes==6.1.1
+
+# Обработка файлов
+Pillow==10.1.0
+python-magic==0.4.27
+django-cleanup==8.0.0
+
+# Web-сервер
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+# Утилиты
+pytz==2023.3
+python-dateutil==2.8.2
+pydantic==2.5.2
+requests==2.31.0
+urllib3==2.1.0
+python-dotenv==1.0.0
+
+# Тестирование
+pytest==7.4.3
+pytest-django==4.7.0
+factory-boy==3.3.0
+faker==20.1.0
+
+# Дополнительные инструменты
+django-debug-toolbar==4.2.0
+ipython==8.17.2
